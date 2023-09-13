@@ -25,7 +25,7 @@ jobs:
 
     - name: make application-prod.yml
       run: |
-        cd ../docker/src/main/resources
+        cd docker/src/main/resources
         touch ./application-prod.yml
         echo "${{ secrets.APPLICATION_PROD }}" > ./application-prod.yml
 
