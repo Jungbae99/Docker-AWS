@@ -31,12 +31,12 @@ jobs:
 
 
     - name: Grant execute permission for gradlew
-      run:
+      run: |
         cd docker
         chmod +x gradlew
 
     - name: Build with Gradle
-      run: 
+      run: |
         cd docker
         ./gradlew build -x test
 
