@@ -38,6 +38,7 @@ jobs:
         ./gradlew build -x test
     - name: Docker build
       run: |
+        cd docker
         docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
         docker build -t app .
         docker tag app ${{ secrets.DOCKER_USERNAME }}/jungbae:latest
