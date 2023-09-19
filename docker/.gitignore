@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### SECRET ###
+**/src/main/resources/config/
+**/src/test/resources/config/
+**/src/main/generated/
