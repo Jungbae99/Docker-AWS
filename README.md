@@ -1,2 +1,2 @@
 # Docker-AWS
-도커, AWS 자동배포 연습
+AWS(CI/CD), Docker, Security 학습용 repo
